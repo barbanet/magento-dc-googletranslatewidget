@@ -10,7 +10,7 @@
  *
  * @category   Dc
  * @package    Dc_GoogleTranslateWidget
- * @copyright  Copyright (c) 2014 Damián Culotta. (http://www.damianculotta.com.ar/)
+ * @copyright  Copyright (c) 2013-2015 Damián Culotta. (http://www.damianculotta.com.ar/)
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -20,7 +20,10 @@ class Dc_GoogleTranslateWidget_Model_System_Config_Source_Display
     const SIMPLE     = 1;
     const HORIZONTAL = 2;
     const VERTICAL   = 3;
-    
+
+    /**
+     * @return array
+     */
     public function toOptionArray()
     {
         $options = array(
