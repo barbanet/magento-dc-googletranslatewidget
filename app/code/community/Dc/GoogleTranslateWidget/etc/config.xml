@@ -18,7 +18,7 @@
 <config>
 	<modules>
 		<Dc_GoogleTranslateWidget>
-			<version>1.0.1</version>
+			<version>1.0.2</version>
 		</Dc_GoogleTranslateWidget>
 	</modules>
     <frontend>
