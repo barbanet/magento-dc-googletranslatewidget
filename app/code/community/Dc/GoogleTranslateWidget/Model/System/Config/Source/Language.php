@@ -17,11 +17,16 @@
 class Dc_GoogleTranslateWidget_Model_System_Config_Source_Language
 {
 
+    /**
+     * @var array
+     */
     protected $_languages = array();
 
     /**
      * Translations between the languages listed in the following table are supported
      * https://developers.google.com/translate/v2/using_rest?hl=es
+     *
+     * @return array
      */
     public function getLanguages()
     {
@@ -95,6 +100,11 @@ class Dc_GoogleTranslateWidget_Model_System_Config_Source_Language
         return $this->_languages;
     }
 
+    /**
+     * Array with the available languages.
+     *
+     * @return array
+     */
     public function toOptionArray()
     {
         foreach ($this->getLanguages() as $code => $label) {

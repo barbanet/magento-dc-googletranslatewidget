@@ -28,6 +28,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Get the Google Translate customization tag.
+     *
      * @return mixed
      */
     public function getCode()
@@ -36,6 +38,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Display format.
+     *
      * @return bool|string
      */
     public function getDisplay()
@@ -56,6 +60,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Current website language.
+     *
      * @return mixed
      */
     public function getPageLanguage()
@@ -64,6 +70,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Allow only specific languages to be translated.
+     *
      * @return mixed
      */
     public function getSpecificLanguages()
@@ -72,6 +80,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Available languages for translation.
+     *
      * @return mixed
      */
     public function getLanguages()
@@ -80,6 +90,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Flag for multilanguage website.
+     *
      * @return mixed
      */
     public function isMultilanguage()
@@ -88,6 +100,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Set if the translation use a specific Analytics code.
+     *
      * @return mixed
      */
     public function useGA()
@@ -96,6 +110,8 @@ class Dc_GoogleTranslateWidget_Block_Widget extends Mage_Core_Block_Template
     }
 
     /**
+     * Gets custom Analytics code.
+     *
      * @return mixed
      */
     public function getGACode()

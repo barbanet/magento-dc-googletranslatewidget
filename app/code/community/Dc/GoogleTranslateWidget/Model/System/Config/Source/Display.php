@@ -22,6 +22,8 @@ class Dc_GoogleTranslateWidget_Model_System_Config_Source_Display
     const VERTICAL   = 3;
 
     /**
+     * Display formats.
+     *
      * @return array
      */
     public function toOptionArray()
